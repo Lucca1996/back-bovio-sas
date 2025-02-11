@@ -29,8 +29,8 @@ export default ({ env }) => {
         port: env.int('DATABASE_PORT', 5432),
         database: env('DATABASE_NAME', 'bovio-sa'),
         user: env('DATABASE_USERNAME', 'postgres'),
-        password: env('DATABASE_PASSWORD', '2828'),
-        ssl: env.bool('DATABASE_SSL', false) && {
+        password: env('DATABASE_PASSWORD', 'Mamamela1512.'),
+        ssl: env.bool('DATABASE_SSL', true) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
           ca: env('DATABASE_SSL_CA', undefined),
